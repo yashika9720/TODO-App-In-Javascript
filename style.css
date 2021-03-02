@@ -75,12 +75,16 @@
     margin-bottom: 5px;
   }
   section div.items-container .item p{
+    height: 100%;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     color: #fff;
     margin: auto;
     overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
     font-size: 24px;
   }
 
